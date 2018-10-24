@@ -1,0 +1,89 @@
+body {
+    background-color: #cccccc;
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    font-family: times;
+    background-image: url("https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&h=350")
+}
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(26, 112, 44);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+nav header {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex: 1;
+    
+}
+nav ul {
+    list-style-image: none;
+}
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+nav a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(247, 187, 91);
+    display: flex;
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar img {
+    width: 230px;
+}
+.content {
+    flex: 1;
+    padding: 5px;
+}
+.interests header {
+    font-size: 1.25em;
+}
+#listTitle {
+    font-style: italic;
+}
+#crossout {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+            
+#portfolio li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+            
+#portfolio li:hover {
+    background: #eee;
+} 
+            
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
+}
